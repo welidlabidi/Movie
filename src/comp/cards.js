@@ -50,11 +50,11 @@ const Cards = ({ result }) => {
 
   return (
     <div>
-      <Card className="movie" style={{ width: "15rem" }} onClick={Open}>
+      <Card className="movie" style={{ width: "13rem" }} onClick={Open}>
         <button>
           <Card.Img
             variant="top"
-            src={`http://image.tmdb.org/t/p/w185/` + result.poster_path}
+            src={`https://image.tmdb.org/t/p/w185/` + result.poster_path}
             alt="no image found"
           />
         </button>
@@ -75,7 +75,7 @@ const Cards = ({ result }) => {
                   <div className="modalimg">
                     <img
                       src={
-                        "http://image.tmdb.org/t/p/w185/" + result.poster_path
+                        "https://image.tmdb.org/t/p/w185/" + result.poster_path
                       }
                       alt="ok"
                     />
