@@ -10,12 +10,17 @@ h1 {
   font-family: initial;
 }
 input {
-  border: none;
+  border: solid white 1px;
   padding-left: 10px;
   background: transparent;
   outline: none;
   color: white;
-  text-align: center;
+  border-radius: 10px;
+}
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
 }
 button {
   border: none;

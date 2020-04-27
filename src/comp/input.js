@@ -1,5 +1,4 @@
 import React from "react";
-
 const Input = ({ handle, search }) => {
   return (
     <form>
@@ -7,7 +6,7 @@ const Input = ({ handle, search }) => {
         onChange={handle}
         type="text"
         name="movie"
-        placeholder="Search for a Movie"
+        placeholder="Search for a Movie..."
         onKeyPress={search}
       />
     </form>
