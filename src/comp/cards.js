@@ -13,7 +13,7 @@ const Cards = ({ result }) => {
   const [trailerKey, setTrailerKey] = useState([]);
   const [cast, setCast] = useState([]);
   const apiKey = "fac34116c639f3e75cd5205251be421c";
-  const trailer = `http://api.themoviedb.org/3/movie/${result.id}/videos?api_key=${apiKey}&append_to_respone=videos`;
+  const trailer = `https://api.themoviedb.org/3/movie/${result.id}/videos?api_key=${apiKey}&append_to_respone=videos`;
   const credit = `https://api.themoviedb.org/3/movie/${result.id}/credits?api_key=${apiKey}`;
   const Open = () => setShowPopup(true);
   const Close = () => setShowPopup(false);
