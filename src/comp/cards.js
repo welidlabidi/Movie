@@ -21,7 +21,6 @@ const Cards = ({ result }) => {
   useEffect(() => {
     axios(trailer).then(({ data }) => {
       setTrailerKey(data.results);
-      console.log(data);
     });
   }, [trailer]);
 
