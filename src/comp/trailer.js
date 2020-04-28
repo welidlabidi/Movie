@@ -7,7 +7,7 @@ const Trailer = (props) => {
       <embed
         style={{ width: "580px", height: "350px" }}
         frameBorder="0"
-        type="video/MP4"
+        type="text/html"
         src={url}
       />
     </div>

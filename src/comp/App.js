@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import CardsList from "./card";
 import Input from "./input";
-
 import "../app.css";
 
 const App = () => {
